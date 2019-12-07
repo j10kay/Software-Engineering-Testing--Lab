@@ -1,0 +1,17 @@
+# Input string
+
+  Length:
+    0.                        [property zerovalue] [single] [error]
+    1.                        [error]
+    size - 1.
+    size + 1.
+    size*2.
+    size*2 - 1.
+    size*2 + 1.
+    maxint.                   [single]
+
+  Content:
+    alphanumeric characters.  [if !zerovalue]
+    special characters.       [if !zerovalue] [error]
+    spaces.                   [if !zerovalue] [error]
+
